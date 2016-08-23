@@ -1,0 +1,25 @@
+//Settings.js is not part of the repository.  However, it should be deployed with the application and contain deployment-specific settings.
+//there is a settings.js.example file that should match the structure and properties of this file that IS checked in to the repo.
+
+var settings = {}
+
+settings.application = {
+  port: 3004
+};
+
+settings.mapswipe = {
+  host: '',
+  user: '',
+  password: '',
+  database: ''
+}
+
+settings.pg = {
+  server: 'localhost',
+  port: '5432',
+  database: 'mapswipe',
+  user: 'user',
+  password: 'password',
+}
+
+module.exports = settings;

@@ -1,0 +1,26 @@
+{
+  "name": "mapswipe-tile-maker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmericanRedCross/mapswipe-tile-maker.git"
+  },
+  "author": "danbjoseph",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/AmericanRedCross/mapswipe-tile-maker/issues"
+  },
+  "homepage": "https://github.com/AmericanRedCross/mapswipe-tile-maker#readme",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "flow": "^0.2.3",
+    "mysql": "^2.11.1",
+    "pg": "^6.0.3",
+    "tilebelt": "^1.0.1"
+  }
+}
